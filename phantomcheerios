@@ -2,7 +2,5 @@
 read -p "`echo $'\n📦  '`Enter your Google Express email: " username
 read -s -p "`echo $'📦  '`Enter your Google Express password: " password
 read -p "`echo $'\n📦  '`Enter a two-factor auth code (if your Google account has two factor auth enabled): " authcode
-# rm -rf /tmp/phantomcheerios
-# phantomjs --local-storage-path /tmp/phantomcheerios phantomcheerios.js $username $password
 
 casperjs phantomcheerios.js $username $password $authcode
