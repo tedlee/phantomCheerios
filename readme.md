@@ -18,7 +18,7 @@ Make sure your version of brew is up-to-date
 
 Then install PhantomJS (1.9.2+) and CasperJS (1.1+)
 
-    $ brew install phantomjs && brew install casperjs --devel
+    $ brew install casperjs --devel
 
 Now just run the bash script and you're golden
 
